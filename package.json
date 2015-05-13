@@ -1,0 +1,25 @@
+{
+  "name": "simple-scroll",
+  "version": "1.0.0",
+  "main": "dist/SimpleScroll.js",
+  "scripts": {
+    "build": "coffee -cb -o dist/ src/SimpleScroll.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naokie/simple-scroll.git"
+  },
+  "author": "Naoki Endoh <naoki.endoh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naokie/simple-scroll/issues"
+  },
+  "homepage": "https://github.com/naokie/simple-scroll#readme",
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "description": "",
+  "dependencies": {
+    "jquery": "^1.11.0"
+  }
+}
