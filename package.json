@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/SimpleScroll.js",
   "scripts": {
-    "build": "coffee -cb -o dist/ src/SimpleScroll.js"
+    "build": "coffee -cb -o dist/ src/SimpleScroll.coffee"
   },
   "repository": {
     "type": "git",
