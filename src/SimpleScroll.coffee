@@ -1,9 +1,4 @@
-((factory) ->
-  if typeof module == 'object' && typeof module.exports == 'object'
-    module.exports = factory(require('jquery'), window, document)
-  else
-    factory(jQuery, window, document)
-) ($, window, document) ->
+($ = jQuery, window, document) ->
   class SimpleScroll
     defaults:
       offset: 0

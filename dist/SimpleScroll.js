@@ -2,14 +2,11 @@
 var bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
   slice = [].slice;
 
-(function(factory) {
-  if (typeof module === 'object' && typeof module.exports === 'object') {
-    return module.exports = factory(require('jquery'), window, document);
-  } else {
-    return factory(jQuery, window, document);
-  }
-})(function($, window, document) {
+(function($, window, document) {
   var SimpleScroll;
+  if ($ == null) {
+    $ = jQuery;
+  }
   SimpleScroll = (function() {
     SimpleScroll.prototype.defaults = {
       offset: 0,
